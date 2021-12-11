@@ -17,8 +17,8 @@ int main() {
       int paraDerecha = lim - j + 1;
       int mejorIzquierdaDerecha = min(paraIzquierda, paraDerecha);
       int mejorArribaAbajo = min(paraArriba, paraAbajo);
-      int tipo = min(mejorIzquierdaDerecha, mejorArribaAbajo);
-      cout << n - tipo + 1 << " ";
+      int paredMasCercana = min(mejorIzquierdaDerecha, mejorArribaAbajo);
+      cout << n - paredMasCercana + 1 << " ";
     }
     cout << '\n';
   }
