@@ -1,2 +1,4 @@
 # I hate MacOs files
-.DS_Store
+*.DS_Store
+
+OMICH-2022/Enero2022
