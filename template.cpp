@@ -1,13 +1,8 @@
 #include <bits/stdc++.h>
+#include "debug.h"
 using namespace std;
 
 #define fore(i, l, r) for (int i = l; i < r; i++)
-
-#ifdef LOCAL
-  #include "debug.h"
-#else
-  #define debug(...)
-#endif
 
 int main() {
   cin.tie(0)->sync_with_stdio(0), cout.tie(0);
