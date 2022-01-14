@@ -35,20 +35,20 @@ int main() {
   int n;
   string s;
   while (cin >> n) {
-    Concursante rob;
-    fore (i, 0, n) {
-      cin >> s;
-      rob.pts += score(s);
-      rob.tens += (s == "10" || s == "X");
-      rob.xs += (s == "X");
-    }
-
     Concursante job;
     fore (i, 0, n) {
       cin >> s;
       job.pts += score(s);
       job.tens += (s == "10" || s == "X");
       job.xs += (s == "X");
+    }
+
+    Concursante rob;
+    fore (i, 0, n) {
+      cin >> s;
+      rob.pts += score(s);
+      rob.tens += (s == "10" || s == "X");
+      rob.xs += (s == "X");
     }
 
     if (rob == job) {
