@@ -3,6 +3,7 @@
 using namespace std;
 
 #define fore(i, l, r) for (int i = l; i < r; i++)
+#define endl '\n'
 
 int main() {
   cin.tie(0)->sync_with_stdio(0), cout.tie(0);
