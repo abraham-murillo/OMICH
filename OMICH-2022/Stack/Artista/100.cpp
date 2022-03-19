@@ -47,6 +47,7 @@ int main() {
   cin.tie(0)->sync_with_stdio(0), cout.tie(0);
 
   while (cin >> m >> n >> g >> c) {
+
     fore (i, 1, n + 1)
       fore (j, 1, m + 1) {
         cartulina[i][j].clear();
